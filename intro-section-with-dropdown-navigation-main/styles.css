@@ -70,3 +70,8 @@ h1{
     align-items: center;
     padding-right: 100px;
 }
+
+login{
+    display:flex;
+    align-items: center;
+}
