@@ -1,3 +1,41 @@
-.logo img{
+.logo {
     width:84px; height:27px ;
+}
+
+.topnav {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-right: 950px;
+
+}
+
+.titlebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login button{
+    border-radius: 12px;
+    background-color: white;
+    padding: 8px 15px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.hero{
+    display: flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 120px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 70px;
 }
