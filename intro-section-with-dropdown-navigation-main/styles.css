@@ -71,7 +71,7 @@ h1{
     padding-right: 100px;
 }
 
-login{
+.login{
     display:flex;
     align-items: center;
 }
