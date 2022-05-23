@@ -33,9 +33,32 @@
     flex-direction: column;
     width: 500px;
     margin-left: 120px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 h1{
     font-weight: 900;
     font-size: 70px;
+}
+
+.sub{
+    font-size: 18px;
+}
+
+.text button{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.clients{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
 }
