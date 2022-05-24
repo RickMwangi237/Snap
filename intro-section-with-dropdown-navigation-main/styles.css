@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     color: hsl(0, 0%,41%);
+    height: 50px;
 }
 
 .login button{
@@ -22,7 +23,7 @@
     background-color: white;
     padding: 8px 15px;
     display: inline-block;
-    margin-left: 30px;
+    ;
 }
 
 .hero{
@@ -75,10 +76,19 @@ h1{
 .login{
     display:flex;
     align-items: center;
+    width:200px;
+    justify-content: space-between;
 }
 
 a{
     text-decoration: none;
     cursor: pointer;
     color: hsl(0, 0%, 41%);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+a:hover{
+    background-color: hsl(61, 73%, 59%);
 }
